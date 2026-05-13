@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Testy">
+      <UniqueIdentifier>{f57d9881-d98e-4f1e-9be6-06e4c93afc83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Generovanie_paketov.cu">
+      <Filter>Testy</Filter>
+    </CudaCompile>
+    <CudaCompile Include="lpm_multibit.cu">
+      <Filter>Testy</Filter>
+    </CudaCompile>
+    <CudaCompile Include="optimalizovanie_pamate.cu">
+      <Filter>Testy</Filter>
+    </CudaCompile>
+    <CudaCompile Include="optimalizovanie_texture_object.cu">
+      <Filter>Testy</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Kompletny_kod_16-8-8_s_rand_adresami.cu">
+      <Filter>Testy</Filter>
+    </CudaCompile>
+    <CudaCompile Include="IPv6_s_shared_memory.cu" />
+    <CudaCompile Include="Kompletny_kod_16-8-8_s_global_s_sortom.cu">
+      <Filter>Testy</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Kompletny_kod_16-8-8_s_texture_s_sortom.cu">
+      <Filter>Testy</Filter>
+    </CudaCompile>
+    <CudaCompile Include="IPv4_16-8-8_s_texture.cu" />
+    <CudaCompile Include="IPv4_16-8-8_s_global.cu" />
+    <CudaCompile Include="IPv4_single_bit.cu" />
+    <CudaCompile Include="IPv6_single_bit.cu" />
+    <CudaCompile Include="Testy\Komunikacia_s_GPU.cu">
+      <Filter>Testy</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Testy\lpm_multibit.cu">
+      <Filter>Testy</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Testy\optimalizovanie_pamate.cu">
+      <Filter>Testy</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Testy\Generovanie_paketov.cu">
+      <Filter>Testy</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

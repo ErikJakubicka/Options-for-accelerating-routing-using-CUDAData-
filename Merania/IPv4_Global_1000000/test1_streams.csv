@@ -1,0 +1,4 @@
+Streams;Time (ms);Throughput (Mpps);Status
+2;1.083392;923.026855;FAIL
+3;0.628064;1592.194458;OK
+4;0.566912;1763.942139;OK

@@ -1,0 +1,10 @@
+﻿  Skipping CUDA source file Kompletny_kod_16-8-8_s_global_s_sortom.cu (excluded from build).
+  Skipping CUDA source file Kompletny_kod_16-8-8_s_rand_adresami.cu (excluded from build).
+  Skipping CUDA source file Kompletny_kod_16-8-8_s_texture_s_sortom.cu (excluded from build).
+  Skipping CUDA source file Komunikacia_s_GPU.cu (excluded from build).
+  Skipping CUDA source file Kompletny_kod_16-8-8_s_global_bez_sortu.cu (excluded from build).
+  Skipping CUDA source file optimalizovanie_pamate.cu (excluded from build).
+  Skipping CUDA source file optimalizovanie_texture_object.cu (excluded from build).
+  Skipping CUDA source file Generovanie_paketov.cu (excluded from build).
+  Skipping CUDA source file lpm_multibit.cu (excluded from build).
+  CUDA_LPM_Test.vcxproj -> D:\Program Files (x86)\Programs\CUDA_LPM_Test\x64\Debug\CUDA_LPM_Test.exe
